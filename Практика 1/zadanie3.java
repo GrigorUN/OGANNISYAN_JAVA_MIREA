@@ -1,6 +1,11 @@
+/*Написать программу, в результате которой массив чисел создается с
+помощью инициализации (как в Си) вводится и считается в цикле сумма
+элементов целочисленного массива, а также среднее арифметическое его
+элементов результат выводится на экран. Использовать цикл for. */
+
 import java.util.Scanner;
 
-public class Example {
+public class zadanie3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
