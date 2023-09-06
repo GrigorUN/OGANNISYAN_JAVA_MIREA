@@ -4,7 +4,7 @@ public class zadanie7
 {
     public static void main(String[] args) 
     {
-        int number = 1000;
+        int number = 100000;
         BigInteger factorial = calculateFactorial(number);
 
         System.out.println("Факториал числа " + number + " равен " + factorial);
