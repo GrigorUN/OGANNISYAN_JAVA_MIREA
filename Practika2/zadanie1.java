@@ -34,12 +34,12 @@ public class zadanie1 {
     }
     public static void main(String[] args) {
         zadanie1 outerInstance = new zadanie1();
-        Author author = outerInstance.new Author("Grigor", "grigorogannisyan@example.com", 'M');
+        Author author = outerInstance.new Author("Grigor", "grigorogannisyan@gmail.com", 'M');
 
         System.out.println("Имя автора: " + author.getName());
         System.out.println("Адрес электронной почты: " + author.getEmail());
 
-        author.setEmail("newemail@example.com");
+        author.setEmail("grogannisyan.111@gmail.com");
         System.out.println("Новый адрес электронной почты: " + author.getEmail());
 
         System.out.println("Пол автора: " + author.getGender());
