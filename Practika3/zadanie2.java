@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class zadanie2 {
     public static void main(String[] args) {
-        int[] randomArray = new int[2]; // Создаем массив из 4 элементов
+        int[] randomArray = new int[4]; // Создаем массив из 4 элементов
 
         // Генерируем случайные целые числа от 10 до 99 и заполняем массив
         Random random = new Random();
