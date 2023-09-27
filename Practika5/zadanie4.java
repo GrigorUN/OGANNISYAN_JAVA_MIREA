@@ -16,7 +16,7 @@ public class zadanie4 extends JFrame {
     public zadanie4() {
         setTitle("Анимация");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(620, 1002);
+        setSize(310, 501);
 
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
