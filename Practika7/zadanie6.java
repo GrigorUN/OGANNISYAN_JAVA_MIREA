@@ -1,6 +1,6 @@
 package Practika7;
 
-public class zadanie6 {
+public class zadanie5 {
     public static void main(String[] args) {
         StringManipulator manipulator = new StringManipulatorImpl();
         String inputString = "Я УСТАЛ ЖИТЬ";
