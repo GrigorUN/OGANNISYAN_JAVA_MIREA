@@ -9,6 +9,9 @@ public class zadanie5 {
         int number = scanner.nextInt();
         int sum = calculateSumOfDigits(number);
         System.out.println("Сумма цифр числа " + number + " равна " + sum);
+
+        // Закрываем Scanner после использования.
+        scanner.close();
     }
 
     public static int calculateSumOfDigits(int n) {

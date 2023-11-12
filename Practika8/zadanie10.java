@@ -21,5 +21,7 @@ public class zadanie10 {
         int n = scanner.nextInt(); // Здесь введите ваше число
         int reversed = reverse(n);
         System.out.println("Разворот числа " + n + " равен " + reversed);
+
+        scanner.close();
     }
 }
